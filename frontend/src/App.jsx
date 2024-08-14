@@ -8,7 +8,6 @@ function App() {
       <Wrapper>
         <Navbar />
         <Home />
-        <Home />
       </Wrapper>
     </div>
   );

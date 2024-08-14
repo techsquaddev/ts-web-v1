@@ -1,37 +1,48 @@
-import React from "react";
+import { ts_logo } from "../assets";
 
 const Navbar = () => {
   return (
-    <header className="bg-white rounded-3xl sticky top-3 z-50">
-      <div className="flex items-center justify-between py-4 px-6 ">
+    <header className="bg-white rounded-3xl sticky top-3 z-50 mb-7">
+      <div className="flex items-center justify-between py-5 px-5 ">
         <div className="flex items-center">
-          {/* Logo */}
           <a href="/" className="flex items-center">
-            <img src="/ts.svg" alt="Logo" className="h-8 w-8" />
-            <span className="ml-2 text-xl text-primary">TechSquad</span>
+            <img src={ts_logo} alt="Logo" className="w-24 h-auto" />
           </a>
         </div>
-        {/* Navigation */}
         <nav className="flex items-center space-x-6">
-          <a href="/" className="text-primary hover:text-[#000000]">
+          <a
+            href="/"
+            className="text-primary hover:text-black transition-colors duration-200"
+          >
             Home
           </a>
-          <a href="/about" className="text-primary hover:text-[#000000]">
+          <a
+            href="/about"
+            className="text-primary hover:text-black transition-colors duration-200"
+          >
             About
           </a>
-          <a href="/templates" className="text-primary hover:text-[#000000]">
+          <a
+            href="/templates"
+            className="text-primary hover:text-black transition-colors duration-200"
+          >
             Templates
           </a>
-          <a href="/products" className="text-primary hover:text-[#000000]">
+          <a
+            href="/products"
+            className="text-primary hover:text-black transition-colors duration-200"
+          >
             Products
           </a>
-          <a href="/blog" className="text-primary hover:text-[#000000]">
+          <a
+            href="/blog"
+            className="text-primary hover:text-black transition-colors duration-200"
+          >
             Blog
           </a>
-          {/* Contact Button */}
           <a
             href="/contact"
-            className="bg-primary text-white py-2 px-4 rounded-lg hover:bg-[#000000] transition-colors duration-300"
+            className="bg-primary text-white py-2 px-4 rounded-lg hover:bg-black transition-colors duration-300"
           >
             Contact
           </a>

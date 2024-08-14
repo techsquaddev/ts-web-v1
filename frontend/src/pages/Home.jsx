@@ -1,9 +1,9 @@
-import React from "react";
+import { Header } from "../components";
 
 const Home = () => {
   return (
-    <div>
-      <div className="min-h-screen"></div>
+    <div className="">
+      <Header />
     </div>
   );
 };

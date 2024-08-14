@@ -4,9 +4,12 @@ export default {
   theme: {
     colors: {
       primary: "#333333",
-      secondary: "#F2B33D",
-      accent: "#F27F3D",
+      secondary: "#525252",
+      accent: "#F0DB4F",
       white: "#FFFFFF",
+      bg: "#f4f4f4",
+      border: "#cccccc",
+      black: "#121212",
     },
     extend: {},
   },
