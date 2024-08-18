@@ -3,7 +3,7 @@ import { about } from "../assets";
 
 const About = () => {
   return (
-    <div className="mt-5 p-5 bg-white rounded-3xl md:p-10">
+    <div className="mt-7 p-5 bg-white rounded-3xl md:p-10">
       <div className="flex flex-col lg:flex-row items-center justify-between lg:gap-20">
         <div className="lg:w-2/5 mt-8 lg:mt-0 flex justify-end">
           <img
