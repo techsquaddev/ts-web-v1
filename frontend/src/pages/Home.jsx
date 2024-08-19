@@ -1,4 +1,11 @@
-import { About, Header, Templates, Products, Contact } from "../components";
+import {
+  About,
+  Header,
+  Templates,
+  Products,
+  Contact,
+  Footer,
+} from "../components";
 
 const Home = () => {
   return (
@@ -8,6 +15,7 @@ const Home = () => {
       <Templates />
       <Products />
       <Contact />
+      <Footer />
     </div>
   );
 };

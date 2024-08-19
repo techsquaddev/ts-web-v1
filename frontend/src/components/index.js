@@ -6,6 +6,7 @@ import Templates from "./Templates";
 import Products from "./Products";
 import ContactForm from "./ContactForm";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 export {
   Wrapper,
@@ -16,4 +17,5 @@ export {
   Products,
   ContactForm,
   Contact,
+  Footer,
 };
