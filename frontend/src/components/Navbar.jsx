@@ -1,8 +1,31 @@
 import { ts_logo } from "../assets";
+import { useState, useEffect } from "react";
 
 const Navbar = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <header className="bg-white rounded-3xl sticky top-3 z-50 mb-7">
+    <header
+      className={`bg-white sticky z-50 mb-7 rounded-3xl transition-all duration-300 ${
+        isScrolled ? "shadow-lg top-0 rounded-t-none" : "top-3"
+      }`}
+    >
       <div className="flex items-center justify-between py-5 px-5 ">
         <div className="flex items-center">
           <a href="/" className="flex items-center">

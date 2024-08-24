@@ -2,7 +2,7 @@ import { ts_logo } from "../assets";
 
 const Footer = () => {
   return (
-    <footer className="my-7 p-5 bg-white rounded-3xl md:p-10">
+    <footer className="mb-3 p-5 bg-white rounded-3xl md:py-8">
       <div className="flex flex-col md:flex-row items-center justify-between">
         <div className="mb-5 md:mb-0">
           <img src={ts_logo} alt="Logo" className="h-6 md:h-8" />
