@@ -1,5 +1,6 @@
 import { ts_logo } from "../assets";
 import { useState, useEffect } from "react";
+import DarkModeToggle from "./DarkModeToggle";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -22,7 +23,7 @@ const Navbar = () => {
 
   return (
     <header
-      className={`bg-white sticky z-50 mb-7 rounded-3xl transition-all duration-300 ${
+      className={`bg-white dark:bg-primary sticky z-50 mb-7 rounded-3xl transition-all duration-300 ${
         isScrolled ? "shadow-lg top-0 rounded-t-none" : "top-3"
       }`}
     >
@@ -35,37 +36,38 @@ const Navbar = () => {
         <nav className="flex items-center space-x-6">
           <a
             href="/"
-            className="text-primary hover:text-black transition-colors duration-200"
+            className="text-primary dark:text-bg hover:text-black transition-colors duration-200"
           >
             Home
           </a>
           <a
             href="#about"
-            className="text-primary hover:text-black transition-colors duration-200"
+            className="text-primary dark:text-bg hover:text-black transition-colors duration-200"
           >
             About
           </a>
           <a
             href="#templates"
-            className="text-primary hover:text-black transition-colors duration-200"
+            className="text-primary dark:text-bg hover:text-black transition-colors duration-200"
           >
             Templates
           </a>
           <a
             href="#products"
-            className="text-primary hover:text-black transition-colors duration-200"
+            className="text-primary dark:text-bg hover:text-black transition-colors duration-200"
           >
             Products
           </a>
           <a
             href="#blog"
-            className="text-primary hover:text-black transition-colors duration-200"
+            className="text-primary dark:text-bg hover:text-black transition-colors duration-200"
           >
             Blog
           </a>
+          <DarkModeToggle />
           <a
             href="#contact"
-            className="bg-primary text-white py-2 px-4 rounded-lg hover:bg-black transition-colors duration-300"
+            className="bg-primary dark:bg-secondary text-white py-2 px-4 rounded-lg hover:bg-black transition-colors duration-300"
           >
             Contact
           </a>

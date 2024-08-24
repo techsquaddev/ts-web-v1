@@ -7,6 +7,7 @@ import Products from "./Products";
 import ContactForm from "./ContactForm";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import DarkModeToggle from "./DarkModeToggle";
 
 export {
   Wrapper,
@@ -18,4 +19,5 @@ export {
   ContactForm,
   Contact,
   Footer,
+  DarkModeToggle,
 };

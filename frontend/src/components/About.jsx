@@ -3,7 +3,10 @@ import { about } from "../assets";
 
 const About = () => {
   return (
-    <div id="about" className=" mt-7 p-5 bg-white rounded-3xl md:p-10">
+    <div
+      id="about"
+      className="mt-7 p-5 bg-white dark:bg-primary rounded-3xl md:p-10"
+    >
       <div className="flex flex-col lg:flex-row items-center justify-between lg:gap-20">
         <div className="lg:w-2/5 mt-8 lg:mt-0 flex justify-end">
           <img
@@ -13,10 +16,10 @@ const About = () => {
           />
         </div>
         <div className="lg:w-3/5 text-center lg:text-left">
-          <h2 className="text-3xl font-bold text-black mb-5 pt-4 md:p-0">
+          <h2 className="text-3xl font-bold text-black dark:text-white mb-5 pt-4 md:p-0">
             We Are Noobs!!
           </h2>
-          <p className="text-base text-secondary mb-6">
+          <p className="text-base text-secondary dark:text-bg mb-6">
             <span className="bg-accent text-primary rounded">
               We are a group of IT undergraduates doing IT projects for fun. 😇
             </span>{" "}
