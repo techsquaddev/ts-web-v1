@@ -74,7 +74,7 @@ const products = [
 
 const Products = () => {
   return (
-    <section className="mt-7">
+    <section id="products" className="mt-7">
       <div className="p-5 bg-white rounded-3xl md:p-10">
         <h2 className="text-3xl text-black font-bold text-center mb-8">
           Our Products

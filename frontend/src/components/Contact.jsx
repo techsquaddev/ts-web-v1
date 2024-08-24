@@ -3,7 +3,7 @@ import ContactForm from "./ContactForm";
 
 const Contact = () => {
   return (
-    <section className="my-7 p-5 bg-white rounded-3xl md:p-10">
+    <section id="contact" className="my-7 p-5 bg-white rounded-3xl md:p-10">
       <div className="flex flex-col lg:flex-row items-center lg:items-start">
         <div className="w-full lg:w-2/5 mb-8 lg:mb-0">
           <ContactForm />

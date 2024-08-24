@@ -40,31 +40,31 @@ const Navbar = () => {
             Home
           </a>
           <a
-            href="/about"
+            href="#about"
             className="text-primary hover:text-black transition-colors duration-200"
           >
             About
           </a>
           <a
-            href="/templates"
+            href="#templates"
             className="text-primary hover:text-black transition-colors duration-200"
           >
             Templates
           </a>
           <a
-            href="/products"
+            href="#products"
             className="text-primary hover:text-black transition-colors duration-200"
           >
             Products
           </a>
           <a
-            href="/blog"
+            href="#blog"
             className="text-primary hover:text-black transition-colors duration-200"
           >
             Blog
           </a>
           <a
-            href="/contact"
+            href="#contact"
             className="bg-primary text-white py-2 px-4 rounded-lg hover:bg-black transition-colors duration-300"
           >
             Contact

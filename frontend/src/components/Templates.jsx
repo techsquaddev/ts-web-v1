@@ -69,7 +69,7 @@ const templates = [
 
 const Templates = () => {
   return (
-    <section className="mt-7">
+    <section id="templates" className="mt-7">
       <div className="p-5 bg-white rounded-3xl md:p-10">
         <h2 className="text-3xl text-black font-bold text-center mb-8">
           Web Templates
