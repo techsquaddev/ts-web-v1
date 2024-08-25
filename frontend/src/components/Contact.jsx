@@ -3,7 +3,10 @@ import ContactForm from "./ContactForm";
 
 const Contact = () => {
   return (
-    <section id="contact" className="my-7 p-5 bg-white rounded-3xl md:p-10">
+    <section
+      id="contact"
+      className="my-7 p-5 bg-white dark:bg-primary rounded-3xl md:p-10"
+    >
       <div className="flex flex-col lg:flex-row items-center lg:items-start">
         <div className="w-full lg:w-2/5 mb-8 lg:mb-0">
           <ContactForm />
@@ -14,8 +17,10 @@ const Contact = () => {
             alt="Contact Us"
             className="w-full h-64 object-cover rounded-xl mb-6"
           />
-          <h2 className="text-2xl font-semibold mb-4">Let's Connect</h2>
-          <p className="text-gray-700 mb-6">
+          <h2 className="text-2xl font-semibold mb-4 dark:text-white">
+            Let's Connect
+          </h2>
+          <p className="text-secondary dark:text-soft-gray mb-6">
             We're here to help and answer any questions you might have. Reach
             out to us on our facebook page or send us a message using the
             contact form.

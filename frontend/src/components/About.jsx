@@ -22,7 +22,7 @@ const About = () => {
           <h2 className="text-3xl font-bold text-black dark:text-white mb-5 pt-4 md:p-0">
             {title}
           </h2>
-          <p className="text-base text-secondary dark:text-bg mb-6">
+          <p className="text-base text-secondary dark:text-soft-gray mb-6">
             <Trans
               i18nKey={description}
               components={{
@@ -31,8 +31,8 @@ const About = () => {
             />
           </p>
           <a
-            href="/contact"
-            className="inline-block border border-primary px-6 py-2 text-black text-base font-semibold rounded-lg hover:bg-primary hover:text-white transition-colors duration-300"
+            href="#contact"
+            className="inline-block border border-primary dark:border-border px-6 py-2 text-black dark:text-white text-base font-semibold rounded-lg hover:bg-primary dark:hover:bg-secondary hover:text-white transition-colors duration-300"
           >
             {button}
           </a>

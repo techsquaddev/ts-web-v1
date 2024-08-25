@@ -40,31 +40,31 @@ const Navbar = () => {
         <nav className="flex items-center space-x-6">
           <a
             href="/"
-            className="text-primary dark:text-bg hover:text-black transition-colors duration-200"
+            className="text-primary dark:text-bg hover:text-black dark:hover:text-accent transition-colors duration-200"
           >
             {t("navbar.home")}
           </a>
           <a
             href="#about"
-            className="text-primary dark:text-bg hover:text-black transition-colors duration-200"
+            className="text-primary dark:text-bg hover:text-black dark:hover:text-accent transition-colors duration-200"
           >
             {t("navbar.about")}
           </a>
           <a
             href="#templates"
-            className="text-primary dark:text-bg hover:text-black transition-colors duration-200"
+            className="text-primary dark:text-bg hover:text-black dark:hover:text-accent transition-colors duration-200"
           >
             {t("navbar.templates")}
           </a>
           <a
             href="#products"
-            className="text-primary dark:text-bg hover:text-black transition-colors duration-200"
+            className="text-primary dark:text-bg hover:text-black dark:hover:text-accent transition-colors duration-200"
           >
             {t("navbar.products")}
           </a>
           <a
             href="#blog"
-            className="text-primary dark:text-bg hover:text-black transition-colors duration-200"
+            className="text-primary dark:text-bg hover:text-black dark:hover:text-accent transition-colors duration-200"
           >
             {t("navbar.blog")}
           </a>
@@ -72,7 +72,7 @@ const Navbar = () => {
           <LanguageSelector />
           <a
             href="#contact"
-            className="bg-primary dark:bg-secondary text-white py-2 px-4 rounded-lg hover:bg-black transition-colors duration-300"
+            className="bg-primary dark:bg-secondary text-white font-semibold py-2 px-4 rounded-lg hover:bg-black dark:hover:bg-accent dark:hover:text-black transition-colors duration-300"
           >
             {t("navbar.contact")}
           </a>

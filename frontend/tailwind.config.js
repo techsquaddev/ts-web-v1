@@ -17,6 +17,7 @@ module.exports = {
       bg: "#f4f4f4",
       border: "#cccccc",
       black: "#222222",
+      "soft-gray": "#e2e2e2",
     },
     extend: {
       keyframes: {

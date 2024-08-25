@@ -1,5 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import LanguageIcon from "@mui/icons-material/Language";
 
 import {
   DropdownMenu,
@@ -25,10 +26,10 @@ const LanguageSelector = () => {
   return (
     <div className="flex gap-2">
       <DropdownMenu>
-        <DropdownMenuTrigger>Open</DropdownMenuTrigger>
+        <DropdownMenuTrigger>
+          <LanguageIcon className="text-primary dark:text-white" />
+        </DropdownMenuTrigger>
         <DropdownMenuContent className="bg-white border-none flex flex-col gap-1">
-          <DropdownMenuLabel>Languages</DropdownMenuLabel>
-          <DropdownMenuSeparator />
           {languages.map((lng) => {
             return (
               <DropdownMenuItem

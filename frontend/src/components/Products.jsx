@@ -29,15 +29,19 @@ import { temp1, temp3, prod1 } from "../assets";
 
 const ProductCard = ({ product }) => {
   return (
-    <div className="bg-white cursor-pointer shadow-md rounded-xl overflow-hidden hover:shadow-lg transition-shadow duration-200">
+    <div className="bg-white dark:bg-[#444444] cursor-pointer shadow-md rounded-xl overflow-hidden hover:shadow-lg transition-shadow duration-200">
       <img
         src={product.coverImage}
         alt={product.name}
         className="w-full h-48 object-cover"
       />
       <div className="p-4">
-        <h3 className="text-black text-lg font-semibold">{product.name}</h3>
-        <p className="text-sm text-primary">{product.description}</p>
+        <h3 className="text-black dark:text-white text-lg font-semibold">
+          {product.name}
+        </h3>
+        <p className="text-sm text-primary dark:text-soft-gray">
+          {product.description}
+        </p>
         <div className="mt-4">
           {product.tags.map((tag, index) => (
             <span
@@ -75,8 +79,8 @@ const products = [
 const Products = () => {
   return (
     <section id="products" className="mt-7">
-      <div className="p-5 bg-white rounded-3xl md:p-10">
-        <h2 className="text-3xl text-black font-bold text-center mb-8">
+      <div className="p-5 bg-white dark:bg-primary rounded-3xl md:p-10">
+        <h2 className="text-3xl text-black dark:text-white font-bold text-center mb-8">
           Our Products
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6">

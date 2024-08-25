@@ -2,47 +2,49 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <form className="bg-white shadow-lg rounded-xl p-8">
-      <h2 className="text-2xl font-semibold text-black mb-6">Get in Touch</h2>
+    <form className="bg-white dark:bg-[#444444] shadow-lg rounded-xl p-8">
+      <h2 className="text-2xl font-semibold text-black dark:text-white mb-6">
+        Get in Touch
+      </h2>
       <div className="mb-4">
         <label
           htmlFor="name"
-          className="block text-sm font-medium text-primary"
+          className="block text-sm font-medium text-primary dark:text-soft-gray"
         >
           Name
         </label>
         <input
           type="text"
           id="name"
-          className="mt-1 p-2 block w-full border border-border rounded-md shadow-sm focus:ring-secondary focus:border-secondary"
+          className="mt-1 p-2 block w-full border border-border dark:bg-[#444] dark:text-white rounded-md shadow-sm focus:ring-secondary focus:border-secondary"
           placeholder="Your Name"
         />
       </div>
       <div className="mb-4">
         <label
           htmlFor="email"
-          className="block text-sm font-medium text-primary"
+          className="block text-sm font-medium text-primary dark:text-soft-gray"
         >
           Email
         </label>
         <input
           type="email"
           id="email"
-          className="mt-1 p-2 block w-full border border-border rounded-md shadow-sm focus:ring-secondary focus:border-secondary"
+          className="mt-1 p-2 block w-full border border-border dark:bg-[#444] dark:text-white  rounded-md shadow-sm focus:ring-secondary focus:border-secondary"
           placeholder="you@example.com"
         />
       </div>
       <div className="mb-4">
         <label
           htmlFor="message"
-          className="block text-sm font-medium text-primary"
+          className="block text-sm font-medium text-primary dark:text-soft-gray"
         >
           Message
         </label>
         <textarea
           id="message"
           rows="4"
-          className="mt-1 p-2 block w-full border border-border rounded-md shadow-sm focus:ring-secondary focus:border-secondary"
+          className="mt-1 p-2 block w-full border border-border dark:bg-[#444] dark:text-white  rounded-md shadow-sm focus:ring-secondary focus:border-secondary"
           placeholder="Your message"
         />
       </div>

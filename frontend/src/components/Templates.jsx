@@ -1,28 +1,34 @@
+import { useTranslation } from "react-i18next";
 import { temp1, temp2, temp3 } from "../assets";
+import { GitHub, Language } from "@mui/icons-material";
 
 const TemplateCard = ({ template }) => {
   return (
-    <div className="bg-white cursor-pointer shadow-md rounded-xl overflow-hidden hover:shadow-lg transition-shadow duration-200">
+    <div className="bg-white dark:bg-[#444444] cursor-pointer shadow-md rounded-xl overflow-hidden hover:shadow-lg transition-shadow duration-200">
       <img
         src={template.coverImage}
         alt={template.name}
         className="w-full h-48 object-cover"
       />
       <div className="p-4">
-        <h3 className="text-black text-lg font-semibold">{template.name}</h3>
-        <p className="text-sm text-primary">{template.description}</p>
+        <h3 className="text-black dark:text-white text-lg font-semibold">
+          {template.name}
+        </h3>
+        <p className="text-sm text-primary dark:text-soft-gray">
+          {template.description}
+        </p>
         <div className="mt-4">
           <a
             href={template.githubLink}
-            className="text-primary hover:underline mr-4"
+            className="text-primary dark:text-white mr-4"
           >
-            GitHub
+            <GitHub />
           </a>
           <a
             href={template.websiteLink}
-            className="text-primary hover:underline"
+            className="text-primary dark:text-white"
           >
-            Website
+            <Language />
           </a>
         </div>
         <div className="mt-4">
@@ -68,11 +74,12 @@ const templates = [
 ];
 
 const Templates = () => {
+  const { t } = useTranslation();
   return (
     <section id="templates" className="mt-7">
-      <div className="p-5 bg-white rounded-3xl md:p-10">
-        <h2 className="text-3xl text-black font-bold text-center mb-8">
-          Web Templates
+      <div className="p-5 bg-white dark:bg-primary rounded-3xl md:p-10">
+        <h2 className="text-3xl text-black dark:text-white font-bold text-center mb-8">
+          {t("templates.title")}
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {templates.map((template, index) => (
