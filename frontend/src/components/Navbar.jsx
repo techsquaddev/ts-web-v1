@@ -1,4 +1,4 @@
-import { ts_logo } from "../assets";
+import { ts_logo, ts_logo_white } from "../assets";
 import { useState, useEffect } from "react";
 import DarkModeToggle from "./DarkModeToggle";
 import LanguageSelector from "./LanguageSelector";
@@ -34,7 +34,12 @@ const Navbar = () => {
       <div className="flex items-center justify-between py-5 px-5 ">
         <div className="flex items-center">
           <a href="/" className="flex items-center">
-            <img src={ts_logo} alt="Logo" className="w-24 h-auto" />
+            <img src={ts_logo} alt="Logo" className="w-24 h-auto dark:hidden" />
+            <img
+              src={ts_logo_white}
+              alt="Logo"
+              className="w-24 h-auto hidden dark:block"
+            />
           </a>
         </div>
         <nav className="flex items-center space-x-6">
