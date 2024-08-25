@@ -8,6 +8,7 @@ import ContactForm from "./ContactForm";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import DarkModeToggle from "./DarkModeToggle";
+import LanguageSelector from "./LanguageSelector";
 
 export {
   Wrapper,
@@ -20,4 +21,5 @@ export {
   Contact,
   Footer,
   DarkModeToggle,
+  LanguageSelector,
 };

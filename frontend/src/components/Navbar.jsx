@@ -1,9 +1,13 @@
 import { ts_logo } from "../assets";
 import { useState, useEffect } from "react";
 import DarkModeToggle from "./DarkModeToggle";
+import LanguageSelector from "./LanguageSelector";
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+
+  const { t } = useTranslation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -38,38 +42,39 @@ const Navbar = () => {
             href="/"
             className="text-primary dark:text-bg hover:text-black transition-colors duration-200"
           >
-            Home
+            {t("navbar.home")}
           </a>
           <a
             href="#about"
             className="text-primary dark:text-bg hover:text-black transition-colors duration-200"
           >
-            About
+            {t("navbar.about")}
           </a>
           <a
             href="#templates"
             className="text-primary dark:text-bg hover:text-black transition-colors duration-200"
           >
-            Templates
+            {t("navbar.templates")}
           </a>
           <a
             href="#products"
             className="text-primary dark:text-bg hover:text-black transition-colors duration-200"
           >
-            Products
+            {t("navbar.products")}
           </a>
           <a
             href="#blog"
             className="text-primary dark:text-bg hover:text-black transition-colors duration-200"
           >
-            Blog
+            {t("navbar.blog")}
           </a>
           <DarkModeToggle />
+          <LanguageSelector />
           <a
             href="#contact"
             className="bg-primary dark:bg-secondary text-white py-2 px-4 rounded-lg hover:bg-black transition-colors duration-300"
           >
-            Contact
+            {t("navbar.contact")}
           </a>
         </nav>
       </div>

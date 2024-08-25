@@ -1,7 +1,10 @@
 import React from "react";
 import { about } from "../assets";
+import { Trans, useTranslation } from "react-i18next";
 
 const About = () => {
+  const { t } = useTranslation();
+  const { title, description, button } = t("about");
   return (
     <div
       id="about"
@@ -17,22 +20,21 @@ const About = () => {
         </div>
         <div className="lg:w-3/5 text-center lg:text-left">
           <h2 className="text-3xl font-bold text-black dark:text-white mb-5 pt-4 md:p-0">
-            We Are Noobs!!
+            {title}
           </h2>
           <p className="text-base text-secondary dark:text-bg mb-6">
-            <span className="bg-accent text-primary rounded">
-              We are a group of IT undergraduates doing IT projects for fun. 😇
-            </span>{" "}
-            We would like to help other undergraduates who are beginners in IT
-            projects to make their projects successful. We are still learning
-            and we believe that knowledge sharing is the best way to learn
-            something quickly. Visit FAQ page for more details.
+            <Trans
+              i18nKey={description}
+              components={{
+                1: <span className="bg-accent text-primary rounded"></span>,
+              }}
+            />
           </p>
           <a
             href="/contact"
             className="inline-block border border-primary px-6 py-2 text-black text-base font-semibold rounded-lg hover:bg-primary hover:text-white transition-colors duration-300"
           >
-            Go to FAQ
+            {button}
           </a>
         </div>
       </div>

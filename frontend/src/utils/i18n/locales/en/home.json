@@ -1,0 +1,17 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "templates": "Templates",
+    "products": "Products",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "We Are Noobs!!",
+    "description": "<1>We are a group of IT undergraduates doing IT projects for fun. 😇</1> We would like to help other undergraduates who are beginners in IT projects to make their projects successful. We are still learning and we believe that knowledge sharing is the best way to learn something quickly. Visit FAQ page for more details.",
+    "button": "Go to FAQ"
+  },
+
+  "welcome": "Welocome to TechSquad!"
+}
