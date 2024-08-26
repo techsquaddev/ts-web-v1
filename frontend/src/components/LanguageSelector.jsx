@@ -29,7 +29,10 @@ const LanguageSelector = () => {
         <DropdownMenuTrigger>
           <LanguageIcon className="text-primary dark:text-white" />
         </DropdownMenuTrigger>
-        <DropdownMenuContent className="bg-white border-none flex flex-col gap-1">
+        <DropdownMenuContent
+          align="start"
+          className="bg-white border-none flex flex-col gap-1"
+        >
           {languages.map((lng) => {
             return (
               <DropdownMenuItem
