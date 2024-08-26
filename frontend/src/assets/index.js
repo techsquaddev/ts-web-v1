@@ -6,5 +6,16 @@ import temp2 from "./templates/temp2.jpg";
 import temp3 from "./templates/temp3.jpg";
 import prod1 from "./products/prod1.jpg";
 import contact from "./contact.jpg";
+import header_image from "./header_image.jpg";
 
-export { ts_logo, ts_logo_white, about, temp1, temp2, temp3, prod1, contact };
+export {
+  ts_logo,
+  ts_logo_white,
+  about,
+  temp1,
+  temp2,
+  temp3,
+  prod1,
+  contact,
+  header_image,
+};

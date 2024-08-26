@@ -80,7 +80,7 @@ const Products = () => {
   return (
     <section id="products" className="mt-7">
       <div className="p-5 bg-white dark:bg-primary rounded-3xl md:p-10">
-        <h2 className="text-3xl text-black dark:text-white font-bold text-center mb-8">
+        <h2 className="text-2xl text-black dark:text-white font-bold text-center mb-8 md:text-3xl">
           Our Products
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6">
