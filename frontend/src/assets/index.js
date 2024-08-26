@@ -7,6 +7,10 @@ import temp3 from "./templates/temp3.jpg";
 import prod1 from "./products/prod1.jpg";
 import contact from "./contact.jpg";
 import header_image from "./header_image.jpg";
+import header_light from "./header_light.png";
+import header_dark from "./header_dark.png";
+import about_light from "./about_light.png";
+import about_dark from "./about_dark.png";
 
 export {
   ts_logo,
@@ -18,4 +22,8 @@ export {
   prod1,
   contact,
   header_image,
+  header_light,
+  header_dark,
+  about_light,
+  about_dark,
 };

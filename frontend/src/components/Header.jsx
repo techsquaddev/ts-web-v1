@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { about } from "../assets";
+import { about, header_dark, header_light } from "../assets";
 
 const Header = () => {
   const { t } = useTranslation();
@@ -23,9 +23,14 @@ const Header = () => {
         </div>
         <div className="lg:w-1/2 mt-8 lg:mt-0 flex justify-center">
           <img
-            src={about}
+            src={header_light}
             alt="Modern website header image"
-            className="w-full max-w-sm"
+            className="w-full max-w-sm dark:hidden"
+          />
+          <img
+            src={header_dark}
+            alt="Modern website header image"
+            className="hidden w-full max-w-sm dark:block"
           />
         </div>
       </div>

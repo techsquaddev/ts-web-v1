@@ -1,5 +1,5 @@
 import React from "react";
-import { about } from "../assets";
+import { about, about_dark, about_light } from "../assets";
 import { Trans, useTranslation } from "react-i18next";
 
 const About = () => {
@@ -13,9 +13,14 @@ const About = () => {
       <div className="flex flex-col lg:flex-row items-center justify-between lg:gap-20">
         <div className="lg:w-2/5 mt-8 lg:mt-0 flex justify-end">
           <img
-            src={about}
+            src={about_light}
             alt="Modern website header image"
-            className="w-full max-w-sm"
+            className="w-full max-w-sm dark:hidden"
+          />
+          <img
+            src={about_dark}
+            alt="Modern website header image"
+            className="hidden w-full max-w-sm dark:block"
           />
         </div>
         <div className="lg:w-3/5 text-center lg:text-left">
