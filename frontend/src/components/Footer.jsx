@@ -15,7 +15,7 @@ const Footer = () => {
 
         <div className="text-center mb-2 md:mb-0">
           <p className="text-sm text-primary dark:text-white">
-            &copy; 2024 Your Company. All rights reserved.
+            &copy; 2024 TechSquad. All rights reserved.
           </p>
         </div>
 

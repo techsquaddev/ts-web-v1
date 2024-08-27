@@ -1,17 +1,20 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const ContactForm = () => {
+  const { t } = useTranslation();
+  const { form, name, email, message } = t("contact");
   return (
     <form className="bg-white dark:bg-[#444444] shadow-lg rounded-xl p-8">
       <h2 className="text-2xl font-bold text-black dark:text-white mb-6">
-        Get in Touch
+        {form}
       </h2>
       <div className="mb-4">
         <label
           htmlFor="name"
           className="block text-sm font-medium text-primary dark:text-soft-gray"
         >
-          Name
+          {name}
         </label>
         <input
           type="text"
@@ -25,7 +28,7 @@ const ContactForm = () => {
           htmlFor="email"
           className="block text-sm font-medium text-primary dark:text-soft-gray"
         >
-          Email
+          {email}
         </label>
         <input
           type="email"
@@ -39,7 +42,7 @@ const ContactForm = () => {
           htmlFor="message"
           className="block text-sm font-medium text-primary dark:text-soft-gray"
         >
-          Message
+          {message}
         </label>
         <textarea
           id="message"
@@ -52,7 +55,7 @@ const ContactForm = () => {
         type="submit"
         className="w-full py-2 px-4 bg-accent text-lg font-semibold text-black rounded-md transition-colors duration-200 hover:bg-primary hover:text-white"
       >
-        Send Message
+        {form}
       </button>
     </form>
   );

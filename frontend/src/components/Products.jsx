@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { temp1, temp3, prod1 } from "../assets";
 
 // const ProductCard = ({ product }) => {
@@ -77,11 +78,12 @@ const products = [
 ];
 
 const Products = () => {
+  const { t } = useTranslation();
   return (
     <section id="products" className="mt-7">
       <div className="p-5 bg-white dark:bg-primary rounded-3xl md:p-10">
         <h2 className="text-2xl text-black dark:text-white font-bold text-center mb-8 md:text-3xl">
-          Our Products
+          {t("products.title")}
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6">
           {products.map((product, index) => (

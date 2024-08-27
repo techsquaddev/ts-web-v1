@@ -19,5 +19,16 @@
   },
   "templates": {
     "title": "Web Templates"
+  },
+  "products": {
+    "title": "Our Products"
+  },
+  "contact": {
+    "form": "Send a Message",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "contact": "Let's Connect",
+    "description": "We're here to help and answer any questions you might have. Reach out to us on our facebook page or send us a message using the contact form."
   }
 }

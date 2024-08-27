@@ -11,7 +11,7 @@ const About = () => {
       className="mt-7 p-5 bg-white dark:bg-primary rounded-3xl md:p-10"
     >
       <div className="flex flex-col lg:flex-row items-center justify-between lg:gap-20">
-        <div className="lg:w-2/5 mt-8 lg:mt-0 flex justify-end">
+        <div className="lg:w-2/5 p-5 mt-8 lg:mt-0 flex justify-end">
           <img
             src={about_light}
             alt="Modern website header image"

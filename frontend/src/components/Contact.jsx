@@ -1,8 +1,10 @@
+import { useTranslation } from "react-i18next";
 import { contact } from "../assets";
 import ContactForm from "./ContactForm";
 import { Facebook, LinkedIn } from "@mui/icons-material";
 
 const Contact = () => {
+  const { t } = useTranslation();
   return (
     <section
       id="contact"
@@ -19,12 +21,10 @@ const Contact = () => {
             className="w-full h-64 object-cover rounded-xl mb-6"
           />
           <h2 className="text-2xl font-semibold mb-4 dark:text-white">
-            Let's Connect
+            {t("contact.contact")}
           </h2>
           <p className="text-secondary dark:text-soft-gray mb-6">
-            We're here to help and answer any questions you might have. Reach
-            out to us on our facebook page or send us a message using the
-            contact form.
+            {t("contact.description")}
           </p>
           <div className="flex space-x-3">
             <a
