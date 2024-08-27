@@ -1,0 +1,34 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "templates": "Templates",
+    "products": "Products",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "header": {
+    "title": "Welocome to TechSquad!",
+    "description": "Discover our range of products and templates designed to bring you the best experience.",
+    "button": "Get Started"
+  },
+  "about": {
+    "title": "We Are Noobs!!",
+    "description": "<1>We are a group of IT undergraduates doing IT projects for fun. 😇</1> We would like to help other undergraduates who are beginners in IT projects to make their projects successful. We are still learning and we believe that knowledge sharing is the best way to learn something quickly. Visit FAQ page for more details.",
+    "button": "Go to FAQ"
+  },
+  "templates": {
+    "title": "Web Templates"
+  },
+  "products": {
+    "title": "Our Products"
+  },
+  "contact": {
+    "form": "Send a Message",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "contact": "Let's Connect",
+    "description": "We're here to help and answer any questions you might have. Reach out to us on our facebook page or send us a message using the contact form."
+  }
+}

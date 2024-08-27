@@ -1,3 +1,25 @@
 import Wrapper from "./Wrapper";
+import Navbar from "./Navbar";
+import Header from "./Header";
+import About from "./About";
+import Templates from "./Templates";
+import Products from "./Products";
+import ContactForm from "./ContactForm";
+import Contact from "./Contact";
+import Footer from "./Footer";
+import DarkModeToggle from "./DarkModeToggle";
+import LanguageSelector from "./LanguageSelector";
 
-export { Wrapper };
+export {
+  Wrapper,
+  Navbar,
+  Header,
+  About,
+  Templates,
+  Products,
+  ContactForm,
+  Contact,
+  Footer,
+  DarkModeToggle,
+  LanguageSelector,
+};

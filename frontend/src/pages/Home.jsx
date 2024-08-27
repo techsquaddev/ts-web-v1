@@ -1,9 +1,21 @@
-import React from "react";
+import {
+  About,
+  Header,
+  Templates,
+  Products,
+  Contact,
+  Footer,
+} from "../components";
 
 const Home = () => {
   return (
-    <div>
-      <div>Home</div>
+    <div className="">
+      <Header />
+      <About />
+      <Templates />
+      <Products />
+      <Contact />
+      <Footer />
     </div>
   );
 };
