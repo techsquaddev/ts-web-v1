@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { contact } from "../assets";
 import ContactForm from "./ContactForm";
-import { Facebook, LinkedIn } from "@mui/icons-material";
+import { Facebook, LinkedIn, WhatsApp } from "@mui/icons-material";
 
 const Contact = () => {
   const { t } = useTranslation();
@@ -23,26 +23,32 @@ const Contact = () => {
           <h2 className="text-2xl font-semibold mb-4 dark:text-white">
             {t("contact.contact")}
           </h2>
-          <p className="text-secondary dark:text-soft-gray mb-6">
+          <p className="text-secondary dark:text-soft-gray mb-5">
             {t("contact.description")}
           </p>
-          <div className="flex space-x-3">
+          <div className="flex items-center space-x-3">
+            <a href="https://wa.me/1XXXXXXXXXX">
+              <button className="flex items-center gap-1.5 py-2 px-3 text-white font-semibold bg-[#25D366] hover:bg-[#128c7e] rounded-lg transition-colors duration-200">
+                <WhatsApp fontSize="medium" className="" />
+                WhatsApp
+              </button>
+            </a>
             <a
               href="#"
-              className="text-primary text-4xl dark:text-soft-gray hover:text-indigo-600"
+              className="text-primary dark:text-soft-gray hover:text-indigo-600"
             >
               <Facebook
-                fontSize="inherit"
-                className="rounded-full bg-soft-gray dark:bg-secondary p-1.5"
+                fontSize="string"
+                className="rounded-full text-4xl bg-soft-gray dark:bg-secondary p-1.5"
               />
             </a>
             <a
               href="#"
-              className="text-primary text-4xl dark:text-soft-gray hover:text-indigo-600"
+              className="text-primary dark:text-soft-gray hover:text-indigo-600"
             >
               <LinkedIn
-                fontSize="inherit"
-                className="rounded-full bg-soft-gray dark:bg-secondary p-1.5"
+                fontSize="string"
+                className="rounded-full text-4xl bg-soft-gray dark:bg-secondary p-1.5"
               />
             </a>
           </div>
