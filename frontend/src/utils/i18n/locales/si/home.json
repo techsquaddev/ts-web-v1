@@ -23,6 +23,11 @@
   "products": {
     "title": "අපගේ නිෂ්පාදන"
   },
+  "sliit360": {
+    "title": "SLIIT සිසුන් සඳහා අන්තර්ජාල කේන්ද්‍රය!",
+    "description": "In this platform, we made it our goal to give everyone access to user-friendly timetables as opposed to hard-to-read HTML schedules. In the near future, we plan to add important links and notices here as well.",
+    "button": "Visit SLIIT360 🚀"
+  },
   "contact": {
     "form": "පණිවිඩයක් එවන්න",
     "name": "නම",

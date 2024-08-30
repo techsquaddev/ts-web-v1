@@ -9,6 +9,7 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 import DarkModeToggle from "./DarkModeToggle";
 import LanguageSelector from "./LanguageSelector";
+import Sliit360 from "./Sliit360";
 
 export {
   Wrapper,
@@ -22,4 +23,5 @@ export {
   Footer,
   DarkModeToggle,
   LanguageSelector,
+  Sliit360,
 };

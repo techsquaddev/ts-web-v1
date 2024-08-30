@@ -6,7 +6,7 @@ import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 
 const TemplateCard = ({ template }) => {
   return (
-    <div className="bg-white dark:bg-[#444444] cursor-pointer shadow-md rounded-xl overflow-hidden hover:shadow-lg transition-shadow duration-200">
+    <div className="bg-white dark:bg-secondary cursor-pointer shadow-md rounded-xl overflow-hidden hover:shadow-lg transition-shadow duration-200">
       <img
         src={template.coverImage}
         alt={template.name}
@@ -37,7 +37,7 @@ const TemplateCard = ({ template }) => {
           {template.tags.map((tag, index) => (
             <span
               key={index}
-              className="text-xs bg-bg dark:bg-secondary text-black dark:text-white rounded-full px-2 py-1 mr-2"
+              className="text-xs bg-bg dark:bg-gray text-black dark:text-white rounded-full px-2 py-1 mr-2"
             >
               {tag}
             </span>
@@ -77,7 +77,7 @@ const TemplatePage = ({ template }) => {
         {template.tags.map((tag, index) => (
           <span
             key={index}
-            className="text-xs bg-bg dark:bg-secondary text-black dark:text-white rounded-full px-2 py-1 mr-2"
+            className="text-xs bg-bg dark:bg-gray text-black dark:text-white rounded-full px-2 py-1 mr-2"
           >
             {tag}
           </span>

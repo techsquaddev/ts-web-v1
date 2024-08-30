@@ -5,6 +5,7 @@ import {
   Products,
   Contact,
   Footer,
+  Sliit360,
 } from "../components";
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <About />
       <Templates />
       <Products />
+      <Sliit360 />
       <Contact />
       <Footer />
     </div>

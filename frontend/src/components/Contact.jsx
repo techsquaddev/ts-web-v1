@@ -27,7 +27,11 @@ const Contact = () => {
             {t("contact.description")}
           </p>
           <div className="flex items-center space-x-3">
-            <a href="https://wa.me/94715109259">
+            <a
+              href="https://wa.me/94715109259"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               <button className="flex items-center gap-1.5 py-2 px-3 text-white font-semibold bg-[#25D366] hover:bg-[#128c7e] rounded-lg transition-colors duration-200">
                 <WhatsApp fontSize="medium" className="" />
                 WhatsApp

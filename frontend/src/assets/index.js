@@ -11,6 +11,8 @@ import header_light from "./header_light.png";
 import header_dark from "./header_dark.png";
 import about_light from "./about_light.png";
 import about_dark from "./about_dark.png";
+import sliit360 from "./sliit360.jpg";
+import sliit360_bg from "./sliit360-bg.jpg";
 
 export {
   ts_logo,
@@ -26,4 +28,6 @@ export {
   header_dark,
   about_light,
   about_dark,
+  sliit360,
+  sliit360_bg,
 };
