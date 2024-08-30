@@ -10,6 +10,7 @@ import Footer from "./Footer";
 import DarkModeToggle from "./DarkModeToggle";
 import LanguageSelector from "./LanguageSelector";
 import Sliit360 from "./Sliit360";
+import Akuru from "./Akuru";
 
 export {
   Wrapper,
@@ -24,4 +25,5 @@ export {
   DarkModeToggle,
   LanguageSelector,
   Sliit360,
+  Akuru,
 };

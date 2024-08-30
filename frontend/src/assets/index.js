@@ -13,6 +13,8 @@ import about_light from "./about_light.png";
 import about_dark from "./about_dark.png";
 import sliit360 from "./sliit360.jpg";
 import sliit360_bg from "./sliit360-bg.jpg";
+import akuru from "./akuru.jpg";
+import akuru_bg from "./akuru_bg.jpg";
 
 export {
   ts_logo,
@@ -30,4 +32,6 @@ export {
   about_dark,
   sliit360,
   sliit360_bg,
+  akuru,
+  akuru_bg,
 };
