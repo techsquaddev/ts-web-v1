@@ -23,6 +23,16 @@
   "products": {
     "title": "Our Products"
   },
+  "sliit360": {
+    "title": "The online material hub of SLIIT students!",
+    "description": "In this platform, we made it our goal to give everyone access to user-friendly timetables as opposed to hard-to-read HTML schedules. In the near future, we plan to add important links and notices here as well.",
+    "button": "Visit SLIIT360 🚀"
+  },
+  "akuru": {
+    "title": "One and only Sinhala font tester in the world!",
+    "description": "Visit Akuru to convert Sinhala unicode fonts and download fonts as single fonts or as packs from one place. The only website in Sri Lanka where you can test the font before downloading.",
+    "button": "Visit Akuru 🚀"
+  },
   "contact": {
     "form": "Send a Message",
     "name": "Name",

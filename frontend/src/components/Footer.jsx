@@ -5,12 +5,14 @@ const Footer = () => {
     <footer className="mb-3 p-5 bg-white dark:bg-primary rounded-3xl md:py-8">
       <div className="flex flex-col md:flex-row items-center justify-between">
         <div className="mb-5 md:mb-0">
-          <img src={ts_logo} alt="Logo" className="h-6 md:h-8 dark:hidden" />
-          <img
-            src={ts_logo_white}
-            alt="Logo"
-            className="h-6 md:h-8 hidden dark:block"
-          />
+          <a href="/">
+            <img src={ts_logo} alt="Logo" className="h-6 md:h-8 dark:hidden" />
+            <img
+              src={ts_logo_white}
+              alt="Logo"
+              className="h-6 md:h-8 hidden dark:block"
+            />
+          </a>
         </div>
 
         <div className="text-center mb-2 md:mb-0">

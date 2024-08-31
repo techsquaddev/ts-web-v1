@@ -5,7 +5,7 @@ const ContactForm = () => {
   const { t } = useTranslation();
   const { form, name, email, message } = t("contact");
   return (
-    <form className="bg-white dark:bg-[#444444] shadow-lg rounded-xl p-8">
+    <form className="bg-white dark:bg-secondary shadow-lg rounded-xl p-8">
       <h2 className="text-2xl font-bold text-black dark:text-white mb-6">
         {form}
       </h2>
@@ -19,7 +19,7 @@ const ContactForm = () => {
         <input
           type="text"
           id="name"
-          className="mt-1 p-2 block w-full border border-border dark:bg-[#444] dark:text-white rounded-md shadow-sm focus:ring-secondary focus:border-secondary"
+          className="mt-1 p-2 block w-full border border-border dark:bg-secondary dark:text-white rounded-md shadow-sm focus:ring-secondary focus:border-secondary"
           placeholder="Your Name"
         />
       </div>
@@ -33,7 +33,7 @@ const ContactForm = () => {
         <input
           type="email"
           id="email"
-          className="mt-1 p-2 block w-full border border-border dark:bg-[#444] dark:text-white  rounded-md shadow-sm focus:ring-secondary focus:border-secondary"
+          className="mt-1 p-2 block w-full border border-border dark:bg-secondary dark:text-white  rounded-md shadow-sm focus:ring-secondary focus:border-secondary"
           placeholder="you@example.com"
         />
       </div>
@@ -47,7 +47,7 @@ const ContactForm = () => {
         <textarea
           id="message"
           rows="4"
-          className="mt-1 p-2 block w-full border border-border dark:bg-[#444] dark:text-white  rounded-md shadow-sm focus:ring-secondary focus:border-secondary"
+          className="mt-1 p-2 block w-full border border-border dark:bg-secondary dark:text-white  rounded-md shadow-sm focus:ring-secondary focus:border-secondary"
           placeholder="Your message"
         />
       </div>

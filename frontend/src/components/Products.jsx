@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { temp1, temp3, prod1 } from "../assets";
+import { prod1, prod2 } from "../assets";
 
 // const ProductCard = ({ product }) => {
 //   return (
@@ -30,31 +30,35 @@ import { temp1, temp3, prod1 } from "../assets";
 
 const ProductCard = ({ product }) => {
   return (
-    <div className="bg-white dark:bg-[#444444] cursor-pointer shadow-md rounded-xl overflow-hidden hover:shadow-lg transition-shadow duration-200">
-      <img
-        src={product.coverImage}
-        alt={product.name}
-        className="w-full h-48 object-cover"
-      />
-      <div className="p-4">
-        <h3 className="text-black dark:text-white text-lg font-semibold">
-          {product.name}
-        </h3>
-        <p className="text-sm text-primary dark:text-soft-gray">
-          {product.description}
-        </p>
-        <div className="mt-4">
-          {product.tags.map((tag, index) => (
-            <span
-              key={index}
-              className="text-xs bg-bg dark:bg-secondary text-black dark:text-white rounded-full px-2 py-1 mr-2"
-            >
-              {tag}
-            </span>
-          ))}
+    <>
+      <a href={product.link} rel="noopener noreferrer" target="_blank">
+        <div className="bg-white dark:bg-secondary cursor-pointer shadow-md rounded-xl overflow-hidden hover:shadow-lg transition-shadow duration-200">
+          <img
+            src={product.coverImage}
+            alt={product.name}
+            className="w-full h-48 object-cover"
+          />
+          <div className="p-4">
+            <h3 className="text-black dark:text-white text-lg font-semibold">
+              {product.name}
+            </h3>
+            <p className="text-sm text-primary dark:text-soft-gray">
+              {product.description}
+            </p>
+            <div className="mt-4">
+              {product.tags.map((tag, index) => (
+                <span
+                  key={index}
+                  className="text-xs bg-bg dark:bg-gray text-black dark:text-white rounded-full px-2 py-1 mr-2"
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
+      </a>
+    </>
   );
 };
 
@@ -62,18 +66,20 @@ const products = [
   {
     coverImage: prod1,
     name: "Akuru Font Manager",
-    description: "A sleek and modern portfolio website template.",
+    description: "A modern and interactive Sinhala font manager.",
     githubLink: "https://github.com/username/portfolio-template",
     websiteLink: "https://example.com/portfolio",
     tags: ["React", "TailwindCSS", "Responsive"],
+    link: "https://www.akuru.net/",
   },
   {
-    coverImage: temp3,
-    name: "E-commerce Website",
-    description: "A fully functional e-commerce website template.",
+    coverImage: prod2,
+    name: "SLIIT Timetable App",
+    description: "A user-friendly timetable management system.",
     githubLink: "https://github.com/username/ecommerce-template",
     websiteLink: "https://example.com/ecommerce",
-    tags: ["React", "TailwindCSS", "Shop"],
+    tags: ["React", "TailwindCSS", "Timetable"],
+    link: "https://sliit360.me/",
   },
 ];
 

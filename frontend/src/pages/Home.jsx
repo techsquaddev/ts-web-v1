@@ -5,6 +5,8 @@ import {
   Products,
   Contact,
   Footer,
+  Sliit360,
+  Akuru,
 } from "../components";
 
 const Home = () => {
@@ -14,6 +16,8 @@ const Home = () => {
       <About />
       <Templates />
       <Products />
+      <Sliit360 />
+      <Akuru />
       <Contact />
       <Footer />
     </div>
