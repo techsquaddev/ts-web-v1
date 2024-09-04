@@ -13,9 +13,9 @@
     "button": "Get Started"
   },
   "about": {
-    "title": "We Are Noobs!!",
-    "description": "<1>We are a group of IT undergraduates doing IT projects for fun. 😇</1> We would like to help other undergraduates who are beginners in IT projects to make their projects successful. We are still learning and we believe that knowledge sharing is the best way to learn something quickly. Visit FAQ page for more details.",
-    "button": "Go to FAQ"
+    "title": "We are a team of devs!!",
+    "description": "<1>We are a small development team associated with Pastel. 😇</1> Pastel is a branding services framework for local businesses. Overall we provide a single branding service for small and medium scale startups to boost their businesses. At TechSquad we do the development part of the process by developing nice looking websites. You can download the Pastel Proposal Document below.",
+    "button": "Proposal Document"
   },
   "templates": {
     "title": "Web Templates"
