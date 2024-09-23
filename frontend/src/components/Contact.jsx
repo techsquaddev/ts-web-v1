@@ -39,7 +39,7 @@ const Contact = () => {
             </a>
             <a
               href="#"
-              className="text-primary dark:text-soft-gray hover:text-indigo-600"
+              className="text-primary dark:text-soft-gray hover:text-indigo-600 hover:scale-110 transition-all duration-200"
             >
               <Facebook
                 fontSize="string"
@@ -48,7 +48,7 @@ const Contact = () => {
             </a>
             <a
               href="#"
-              className="text-primary dark:text-soft-gray hover:text-indigo-600"
+              className="text-primary dark:text-soft-gray hover:text-indigo-600 hover:scale-110 transition-all duration-200"
             >
               <LinkedIn
                 fontSize="string"

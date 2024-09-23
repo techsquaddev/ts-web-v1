@@ -1,5 +1,9 @@
 const Wrapper = ({ children }) => {
-  return <div className="w-11/12 mx-auto md:w-3/4">{children}</div>;
+  return (
+    <div className="max-w-[75rem] mx-auto px-4 sm:px-6 lg:px-8 w-full">
+      {children}
+    </div>
+  );
 };
 
 export default Wrapper;
