@@ -1,14 +1,19 @@
 import "./App.css";
-import { Home } from "./pages";
-import { Navbar, Wrapper } from "./components";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Home, Blog } from "./pages";
+import { MainLayout } from "./components";
 
 function App() {
   return (
     <div>
-      <Wrapper>
-        <Navbar />
-        <Home />
-      </Wrapper>
+      <Router>
+        <MainLayout>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/blog" element={<Blog />} />
+          </Routes>
+        </MainLayout>
+      </Router>
     </div>
   );
 }

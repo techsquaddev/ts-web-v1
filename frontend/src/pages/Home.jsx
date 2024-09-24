@@ -5,7 +5,6 @@ import {
   Templates,
   Products,
   Contact,
-  Footer,
   Sliit360,
   Akuru,
 } from "../components";
@@ -99,8 +98,6 @@ const Home = () => {
       >
         <Contact />
       </motion.div>
-
-      <Footer />
     </div>
   );
 };
