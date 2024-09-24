@@ -1,4 +1,5 @@
 import Wrapper from "./Wrapper";
+import MainLayout from "./MainLayout";
 import Navbar from "./Navbar";
 import Header from "./Header";
 import About from "./About";
@@ -14,6 +15,7 @@ import Akuru from "./Akuru";
 
 export {
   Wrapper,
+  MainLayout,
   Navbar,
   Header,
   About,
