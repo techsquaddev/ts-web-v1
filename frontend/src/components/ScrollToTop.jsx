@@ -56,7 +56,7 @@ const ScrollToTop = ({ showAfter = 300, className = "" }) => {
             text-neutral-600 dark:text-neutral-300
             hover:text-neutral-900 dark:hover:text-white
             transition-colors duration-200
-            focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2
+            focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2
             dark:focus:ring-offset-neutral-800
             ${className}
           `}

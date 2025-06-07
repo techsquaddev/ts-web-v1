@@ -6,6 +6,7 @@ import {
   Header,
   Products,
   Sliit360,
+  TechStack,
   Templates,
 } from "@/components";
 
@@ -107,6 +108,15 @@ const Home = () => {
         viewport={{ once: true, amount: 0.3 }}
       >
         <Akuru />
+      </motion.div>
+
+      <motion.div
+        initial={scaleIn.initial}
+        whileInView={scaleIn.animate}
+        transition={scaleIn.transition}
+        viewport={{ once: true, amount: 0.3 }}
+      >
+        <TechStack />
       </motion.div>
 
       {/* Contact section - Fade in from bottom */}

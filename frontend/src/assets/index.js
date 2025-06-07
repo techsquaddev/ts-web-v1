@@ -17,6 +17,18 @@ import sliit360_bg from "./sliit360-bg.jpg";
 import akuru from "./akuru.jpg";
 import akuru_bg from "./akuru_bg.jpg";
 
+// Tech
+import html from "./tech/html.svg";
+import css from "./tech/CSS3.svg";
+import javascript from "./tech/JavaScript.svg";
+import typescript from "./tech/TypeScript.svg";
+import react from "./tech/React.svg";
+import vite from "./tech/Vite.js.svg";
+import tailwindcss from "./tech/Tailwind CSS.svg";
+import python from "./tech/Python.svg";
+import node from "./tech/Node.js.svg";
+import mongo from "./tech/MongoDB.svg";
+
 export {
   ts_logo,
   ts_logo_white,
@@ -36,4 +48,17 @@ export {
   sliit360_bg,
   akuru,
   akuru_bg,
+};
+
+export {
+  html,
+  css,
+  javascript,
+  typescript,
+  react,
+  vite,
+  tailwindcss,
+  python,
+  node,
+  mongo,
 };

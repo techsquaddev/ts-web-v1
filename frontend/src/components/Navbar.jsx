@@ -78,6 +78,12 @@ const Navbar = () => {
             {t("navbar.products")}
           </a>
           <a
+            href="#tech"
+            className="text-primary dark:text-bg hover:text-black dark:hover:text-accent transition-colors duration-200"
+          >
+            Tech
+          </a>
+          <a
             href="#blog"
             className="text-primary dark:text-bg hover:text-black dark:hover:text-accent transition-colors duration-200"
           >
