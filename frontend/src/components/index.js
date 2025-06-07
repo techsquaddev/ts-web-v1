@@ -12,6 +12,7 @@ import DarkModeToggle from "./DarkModeToggle";
 import LanguageSelector from "./LanguageSelector";
 import Sliit360 from "./Sliit360";
 import Akuru from "./Akuru";
+import ScrollToTop from "./ScrollToTop";
 
 export {
   Wrapper,
@@ -28,4 +29,5 @@ export {
   LanguageSelector,
   Sliit360,
   Akuru,
+  ScrollToTop,
 };
