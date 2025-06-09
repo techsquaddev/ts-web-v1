@@ -9,10 +9,10 @@ const Header = () => {
       <div className="flex flex-col lg:flex-row items-center justify-between">
         <div className="lg:w-1/2 text-center lg:text-left">
           <h1 className="text-4xl font-bold text-black dark:text-white mb-4 pt-4 md:p-0">
-            {title}
+            {title}✌️
           </h1>
           <p className="text-base text-secondary dark:text-soft-gray mb-6">
-            {description}
+            {description} ✨
           </p>
           <a
             href="#templates"

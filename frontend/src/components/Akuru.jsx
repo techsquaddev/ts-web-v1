@@ -27,7 +27,7 @@ const Akuru = () => {
             />
           </p>
           <a
-            href="https://www.akuru.net/"
+            href="https://akuru-client.onrender.com"
             rel="noopener noreferrer"
             target="_blank"
             className="inline-block border-2 border-border px-6 py-2 text-white text-base font-semibold rounded-lg hover:bg-secondary transition-colors duration-300"

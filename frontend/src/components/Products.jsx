@@ -70,7 +70,7 @@ const products = [
     githubLink: "https://github.com/username/portfolio-template",
     websiteLink: "https://example.com/portfolio",
     tags: ["React", "TailwindCSS", "Responsive"],
-    link: "https://www.akuru.net/",
+    link: "https://akuru-client.onrender.com/",
   },
   {
     coverImage: prod2,
