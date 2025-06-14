@@ -3,11 +3,9 @@ import { Footer, Navbar, Wrapper } from ".";
 const MainLayout = ({ children }) => {
   return (
     <Wrapper>
-      <div className="flex h-screen flex-col">
-        <Navbar />
-        <main className="flex-1">{children}</main>
-        <Footer />
-      </div>
+      <Navbar />
+      <main>{children}</main>
+      <Footer />
     </Wrapper>
   );
 };

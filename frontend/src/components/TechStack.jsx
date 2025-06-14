@@ -140,9 +140,9 @@ const TechStack = () => {
               <motion.div
                 whileHover={{ rotate: 360 }}
                 transition={{ duration: 0.6 }}
-                className={`w-20 h-20 bg-white dark:bg-secondary rounded-2xl flex items-center justify-center shadow-lg hover:shadow-2xl transition-shadow duration-300 cursor-pointer`}
+                className={`w-16 h-16 bg-white dark:bg-secondary rounded-2xl flex items-center justify-center shadow-lg hover:shadow-2xl transition-shadow duration-300 cursor-pointer`}
               >
-                <img src={tech.icon} className="w-12 h-12 text-white" />
+                <img src={tech.icon} className="w-10 h-10 text-white" />
               </motion.div>
             </motion.div>
           ))}
