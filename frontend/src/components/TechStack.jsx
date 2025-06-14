@@ -1,5 +1,8 @@
 import {
+  chatgpt,
+  claude,
   css,
+  deepseek,
   html,
   javascript,
   mongo,
@@ -8,70 +11,67 @@ import {
   react,
   tailwindcss,
   typescript,
+  v0,
   vite,
 } from "@/assets";
 import { motion } from "framer-motion";
-import {
-  Code2,
-  Palette,
-  Zap,
-  FileCode,
-  Atom,
-  ArrowRight,
-  Database,
-  Server,
-} from "lucide-react";
 
 const technologies = [
   {
     name: "HTML",
     icon: html,
-    color: "from-orange-400 to-orange-600",
   },
   {
     name: "CSS",
     icon: css,
-    color: "from-blue-400 to-blue-600",
   },
   {
     name: "JavaScript",
     icon: javascript,
-    color: "from-yellow-400 to-yellow-600",
   },
   {
     name: "TypeScript",
     icon: typescript,
-    color: "from-blue-500 to-blue-700",
   },
   {
     name: "React.js",
     icon: react,
-    color: "from-cyan-400 to-cyan-600",
   },
   {
     name: "Vite.js",
     icon: vite,
-    color: "from-gray-700 to-gray-900",
   },
   {
     name: "Tailwind CSS",
     icon: tailwindcss,
-    color: "from-teal-400 to-teal-600",
   },
   {
     name: "Python",
     icon: python,
-    color: "from-green-400 to-blue-500",
   },
   {
     name: "Node.js",
     icon: node,
-    color: "from-green-500 to-green-700",
   },
   {
     name: "MongoDB",
     icon: mongo,
-    color: "from-green-600 to-green-800",
+  },
+  {
+    name: "ChatGPT",
+    icon: chatgpt,
+  },
+  {
+    name: "Claude",
+    icon: claude,
+  },
+  {
+    name: "DeepSeek",
+    icon: deepseek,
+  },
+  {
+    name: "V0",
+    icon: v0,
   },
 ];
 
@@ -134,7 +134,7 @@ const TechStack = () => {
               whileHover={{
                 scale: 1.2,
               }}
-              className="group relative"
+              className=""
             >
               {/* Icon */}
               <motion.div

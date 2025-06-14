@@ -28,6 +28,10 @@ import tailwindcss from "./tech/Tailwind CSS.svg";
 import python from "./tech/Python.svg";
 import node from "./tech/Node.js.svg";
 import mongo from "./tech/MongoDB.svg";
+import chatgpt from "./tech/chatgpt.svg";
+import claude from "./tech/claude-ai.svg";
+import deepseek from "./tech/deepseek.svg";
+import v0 from "./tech/v0.png";
 
 export {
   ts_logo,
@@ -61,4 +65,8 @@ export {
   python,
   node,
   mongo,
+  chatgpt,
+  claude,
+  deepseek,
+  v0,
 };
