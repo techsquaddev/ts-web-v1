@@ -13,6 +13,7 @@ import LanguageSelector from "./LanguageSelector";
 import Sliit360 from "./Sliit360";
 import Akuru from "./Akuru";
 import TechStack from "./TechStack";
+import Timeline from "./Timeline";
 import ScrollToTop from "./ScrollToTop";
 
 export {
@@ -31,5 +32,6 @@ export {
   Sliit360,
   Akuru,
   TechStack,
+  Timeline,
   ScrollToTop,
 };
