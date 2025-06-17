@@ -5,7 +5,7 @@ const Header = () => {
   const { t } = useTranslation();
   const { title, description, button } = t("header");
   return (
-    <header className="p-5 bg-white dark:bg-zinc-800 rounded-3xl md:p-10">
+    <header className="p-5 bg-white dark:bg-zinc-800 rounded-3xl md:px-10 md:py-14">
       <div className="flex flex-col lg:flex-row items-center justify-between">
         <div className="lg:w-1/2 text-center lg:text-left">
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4 pt-4 md:p-0">

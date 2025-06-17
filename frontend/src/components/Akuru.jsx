@@ -18,7 +18,7 @@ const Akuru = () => {
           <h2 className="text-3xl font-bold text-white mb-5 pt-4 md:p-0">
             {title}
           </h2>
-          <p className="text-base text-soft-gray mb-6">
+          <p className="text-base text-zinc-200 mb-6">
             <Trans
               i18nKey={description}
               components={{

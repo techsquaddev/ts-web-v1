@@ -6,6 +6,8 @@ import temp2 from "./templates/temp2.jpg";
 import temp3 from "./templates/temp3.jpg";
 import prod1 from "./products/prod1.jpg";
 import prod2 from "./products/prod2.png";
+import prod3 from "./products/prod3.png";
+import prod4 from "./products/prod4.png";
 import contact from "./contact.jpg";
 import header_image from "./header_image.jpg";
 import header_light from "./header_light.png";
@@ -42,6 +44,8 @@ export {
   temp3,
   prod1,
   prod2,
+  prod3,
+  prod4,
   contact,
   header_image,
   header_light,
