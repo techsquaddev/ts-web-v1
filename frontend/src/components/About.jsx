@@ -24,10 +24,10 @@ const About = () => {
           />
         </div>
         <div className="lg:w-3/5 text-center lg:text-left">
-          <h2 className="text-3xl font-bold text-black dark:text-white mb-5 pt-4 md:p-0">
+          <h2 className="text-2xl text-gray-900 dark:text-white font-bold mb-8 md:text-3xl">
             {title}
           </h2>
-          <p className="text-base text-secondary dark:text-soft-gray mb-6">
+          <p className="text-base text-secondary dark:text-zinc-200 mb-6">
             <Trans
               i18nKey={description}
               components={{
@@ -36,7 +36,8 @@ const About = () => {
             />
           </p>
           <a
-            href="#contact"
+            href="#"
+            target="_blank"
             className="inline-block border border-primary dark:border-border px-6 py-2 text-black dark:text-white text-base font-semibold rounded-lg hover:bg-primary dark:hover:bg-secondary hover:text-white transition-colors duration-300"
           >
             {button}

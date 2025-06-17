@@ -9,7 +9,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  @apply transition-colors duration-200;
+  transition: color 0.2s;
 }
 
 html {
@@ -17,9 +17,9 @@ html {
 }
 
 body {
-  @apply bg-bg;
+  @apply bg-zinc-100;
 }
 
 body.dark {
-  @apply bg-black;
+  @apply bg-zinc-900;
 }

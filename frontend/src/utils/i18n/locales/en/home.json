@@ -3,25 +3,26 @@
     "home": "Home",
     "about": "About",
     "templates": "Templates",
-    "products": "Products",
+    "projects": "Projects",
+    "tech": "Tech",
     "blog": "Blog",
     "contact": "Contact"
   },
   "header": {
     "title": "Welocome to TechSquad!",
-    "description": "Discover our range of products and templates designed to bring you the best experience.",
+    "description": "Whether you're a student working against a tight deadline or a business aiming to establish an online presence, we deliver websites and systems that are reliable, fast, and effective.",
     "button": "Get Started"
   },
   "about": {
-    "title": "We are a team of devs!!",
-    "description": "<1>We are a small development team associated with Pastel. 😇</1> Pastel is a branding services framework for local businesses. Overall we provide a single branding service for small and medium scale startups to boost their businesses. At TechSquad we do the development part of the process by developing nice looking websites. You can download the Pastel Proposal Document below.",
+    "title": "Who We Are",
+    "description": "<1>We’re a passionate team of developers helping students and small businesses bring their ideas to life. 😇</1> What started as a hobby has become a dedicated dev team that builds modern, responsive websites, academic projects, and web apps with real-world value. From fast student project delivery to small business websites with a professional touch, we keep things simple, honest, and on time.",
     "button": "Proposal Document"
   },
   "templates": {
     "title": "Web Templates"
   },
-  "products": {
-    "title": "Our Products"
+  "projects": {
+    "title": "Our Projects"
   },
   "sliit360": {
     "title": "The online material hub of SLIIT students!",

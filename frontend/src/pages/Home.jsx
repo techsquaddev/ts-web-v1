@@ -1,104 +1,128 @@
-import { motion, useInView } from "framer-motion";
+import { motion } from "framer-motion";
 import {
   About,
-  Header,
-  Templates,
-  Products,
-  Contact,
-  Sliit360,
   Akuru,
-} from "../components";
-import { useRef } from "react";
+  CallToAction,
+  Contact,
+  Header,
+  Projects,
+  Sliit360,
+  TechStack,
+  UniProjects,
+} from "@/components";
 
-// Define animation variants for the sections
-const sectionVariants = {
-  hidden: { opacity: 0, y: 50 },
-  visible: { opacity: 1, y: 0 },
+// Animation variants for different effects
+const fadeInUp = {
+  initial: { opacity: 0, y: 60 },
+  animate: { opacity: 1, y: 0 },
+  transition: { duration: 0.6, ease: "easeOut" },
+};
+
+const fadeInLeft = {
+  initial: { opacity: 0, x: -60 },
+  animate: { opacity: 1, x: 0 },
+  transition: { duration: 0.6, ease: "easeOut" },
+};
+
+const fadeInRight = {
+  initial: { opacity: 0, x: 60 },
+  animate: { opacity: 1, x: 0 },
+  transition: { duration: 0.6, ease: "easeOut" },
+};
+
+const scaleIn = {
+  initial: { opacity: 0, scale: 0.8 },
+  animate: { opacity: 1, scale: 1 },
+  transition: { duration: 0.6, ease: "easeOut" },
+};
+
+const staggerContainer = {
+  animate: {
+    transition: {
+      staggerChildren: 0.1,
+    },
+  },
 };
 
 const Home = () => {
-  // Creating refs for each section to track its visibility
-  const headerRef = useRef(null);
-  const aboutRef = useRef(null);
-  const templatesRef = useRef(null);
-  const productsRef = useRef(null);
-  const sliit360Ref = useRef(null);
-  const akuruRef = useRef(null);
-  const contactRef = useRef(null);
-  const footerRef = useRef(null);
-
-  // Tracking whether each section is in view
-  const aboutInView = useInView(aboutRef, { once: true });
-  const templatesInView = useInView(templatesRef, { once: true });
-  const productsInView = useInView(productsRef, { once: true });
-  const sliit360InView = useInView(sliit360Ref, { once: true });
-  const akuruInView = useInView(akuruRef, { once: true });
-  const contactInView = useInView(contactRef, { once: true });
-
   return (
-    <div className="">
-      <Header />
-
+    <motion.div
+      className=""
+      variants={staggerContainer}
+      initial="initial"
+      animate="animate"
+    >
       <motion.div
-        ref={aboutRef}
-        initial="hidden"
-        animate={aboutInView ? "visible" : "hidden"}
-        transition={{ duration: 0.5 }}
-        variants={sectionVariants}
+        initial={scaleIn.initial}
+        whileInView={scaleIn.animate}
+        transition={scaleIn.transition}
+        viewport={{ once: true, amount: 0.3 }}
+      >
+        <Header />
+      </motion.div>
+
+      {/* Fade in from bottom */}
+      <motion.div
+        initial={fadeInUp.initial}
+        whileInView={fadeInUp.animate}
+        transition={fadeInUp.transition}
+        viewport={{ once: true, amount: 0.3 }}
       >
         <About />
       </motion.div>
 
+      {/* Scale in */}
       <motion.div
-        ref={templatesRef}
-        initial="hidden"
-        animate={templatesInView ? "visible" : "hidden"}
-        transition={{ duration: 0.5, delay: 0.2 }}
-        variants={sectionVariants}
+        initial={scaleIn.initial}
+        whileInView={scaleIn.animate}
+        transition={scaleIn.transition}
+        viewport={{ once: true, amount: 0.3 }}
       >
-        <Templates />
+        <Projects />
       </motion.div>
 
+      {/* Fade in from right */}
       <motion.div
-        ref={productsRef}
-        initial="hidden"
-        animate={productsInView ? "visible" : "hidden"}
-        transition={{ duration: 0.5, delay: 0.4 }}
-        variants={sectionVariants}
-      >
-        <Products />
-      </motion.div>
-
-      <motion.div
-        ref={sliit360Ref}
-        initial="hidden"
-        animate={sliit360InView ? "visible" : "hidden"}
-        transition={{ duration: 0.5, delay: 0.6 }}
-        variants={sectionVariants}
+        initial={fadeInRight.initial}
+        whileInView={fadeInRight.animate}
+        transition={fadeInRight.transition}
+        viewport={{ once: true, amount: 0.3 }}
       >
         <Sliit360 />
       </motion.div>
 
+      {/* Fade in from bottom with delay */}
       <motion.div
-        ref={akuruRef}
-        initial="hidden"
-        animate={akuruInView ? "visible" : "hidden"}
-        transition={{ duration: 0.5, delay: 0.8 }}
-        variants={sectionVariants}
+        initial={fadeInLeft.initial}
+        whileInView={fadeInLeft.animate}
+        transition={fadeInLeft.transition}
+        viewport={{ once: true, amount: 0.3 }}
       >
         <Akuru />
       </motion.div>
 
       <motion.div
-        ref={contactRef}
-        initial="hidden"
-        animate={contactInView ? "visible" : "hidden"}
-        transition={{ duration: 0.5, delay: 1.0 }}
-        variants={sectionVariants}
+        initial={scaleIn.initial}
+        whileInView={scaleIn.animate}
+        transition={scaleIn.transition}
+        viewport={{ once: true, amount: 0.3 }}
+      >
+        <TechStack />
+      </motion.div>
+
+      <UniProjects />
+      <CallToAction />
+
+      {/* Contact section - Fade in from bottom */}
+      <motion.div
+        initial={fadeInUp.initial}
+        whileInView={fadeInUp.animate}
+        transition={fadeInUp.transition}
+        viewport={{ once: true, amount: 0.3 }}
       >
         <Contact />
       </motion.div>
-    </div>
+    </motion.div>
   );
 };
 

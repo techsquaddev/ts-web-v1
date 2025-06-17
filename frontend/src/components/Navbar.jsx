@@ -8,7 +8,6 @@ import { Menu } from "@mui/icons-material";
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
@@ -66,16 +65,16 @@ const Navbar = () => {
             {t("navbar.about")}
           </a>
           <a
-            href="#templates"
+            href="#projects"
             className="text-primary dark:text-bg hover:text-black dark:hover:text-accent transition-colors duration-200"
           >
-            {t("navbar.templates")}
+            {t("navbar.projects")}
           </a>
           <a
-            href="#products"
+            href="#tech"
             className="text-primary dark:text-bg hover:text-black dark:hover:text-accent transition-colors duration-200"
           >
-            {t("navbar.products")}
+            {t("navbar.tech")}
           </a>
           <a
             href="#blog"
@@ -129,11 +128,11 @@ const Navbar = () => {
                 <a href="#about" className="text-primary dark:text-bg">
                   {t("navbar.about")}
                 </a>
-                <a href="#templates" className="text-primary dark:text-bg">
-                  {t("navbar.templates")}
+                <a href="#projects" className="text-primary dark:text-bg">
+                  {t("navbar.projects")}
                 </a>
-                <a href="#products" className="text-primary dark:text-bg">
-                  {t("navbar.products")}
+                <a href="#tech" className="text-primary dark:text-bg">
+                  {t("navbar.tech")}
                 </a>
                 <a href="#blog" className="text-primary dark:text-bg">
                   {t("navbar.blog")}

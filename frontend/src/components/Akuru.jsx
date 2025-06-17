@@ -18,7 +18,7 @@ const Akuru = () => {
           <h2 className="text-3xl font-bold text-white mb-5 pt-4 md:p-0">
             {title}
           </h2>
-          <p className="text-base text-soft-gray mb-6">
+          <p className="text-base text-zinc-200 mb-6">
             <Trans
               i18nKey={description}
               components={{
@@ -27,7 +27,7 @@ const Akuru = () => {
             />
           </p>
           <a
-            href="https://www.akuru.net/"
+            href="https://akuru-client.onrender.com"
             rel="noopener noreferrer"
             target="_blank"
             className="inline-block border-2 border-border px-6 py-2 text-white text-base font-semibold rounded-lg hover:bg-secondary transition-colors duration-300"

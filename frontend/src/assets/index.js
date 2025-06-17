@@ -6,6 +6,10 @@ import temp2 from "./templates/temp2.jpg";
 import temp3 from "./templates/temp3.jpg";
 import prod1 from "./products/prod1.jpg";
 import prod2 from "./products/prod2.png";
+import prod3 from "./products/prod3.png";
+import prod4 from "./products/prod4.png";
+import prod5 from "./products/prod5.png";
+import prod6 from "./products/prod6.png";
 import contact from "./contact.jpg";
 import header_image from "./header_image.jpg";
 import header_light from "./header_light.png";
@@ -17,6 +21,22 @@ import sliit360_bg from "./sliit360-bg.jpg";
 import akuru from "./akuru.jpg";
 import akuru_bg from "./akuru_bg.jpg";
 
+// Tech
+import html from "./tech/html.svg";
+import css from "./tech/CSS3.svg";
+import javascript from "./tech/JavaScript.svg";
+import typescript from "./tech/TypeScript.svg";
+import react from "./tech/React.svg";
+import vite from "./tech/Vite.js.svg";
+import tailwindcss from "./tech/Tailwind CSS.svg";
+import python from "./tech/Python.svg";
+import node from "./tech/Node.js.svg";
+import mongo from "./tech/MongoDB.svg";
+import chatgpt from "./tech/chatgpt.svg";
+import claude from "./tech/claude-ai.svg";
+import deepseek from "./tech/deepseek.svg";
+import v0 from "./tech/v0.png";
+
 export {
   ts_logo,
   ts_logo_white,
@@ -26,6 +46,10 @@ export {
   temp3,
   prod1,
   prod2,
+  prod3,
+  prod4,
+  prod5,
+  prod6,
   contact,
   header_image,
   header_light,
@@ -36,4 +60,21 @@ export {
   sliit360_bg,
   akuru,
   akuru_bg,
+};
+
+export {
+  html,
+  css,
+  javascript,
+  typescript,
+  react,
+  vite,
+  tailwindcss,
+  python,
+  node,
+  mongo,
+  chatgpt,
+  claude,
+  deepseek,
+  v0,
 };

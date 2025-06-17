@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 import Header from "./Header";
 import About from "./About";
 import Templates from "./Templates";
-import Products from "./Products";
+import Projects from "./Projects";
 import ContactForm from "./ContactForm";
 import Contact from "./Contact";
 import Footer from "./Footer";
@@ -12,6 +12,11 @@ import DarkModeToggle from "./DarkModeToggle";
 import LanguageSelector from "./LanguageSelector";
 import Sliit360 from "./Sliit360";
 import Akuru from "./Akuru";
+import TechStack from "./TechStack";
+import Timeline from "./Timeline";
+import UniProjects from "./UniProjects";
+import CallToAction from "./CallToAction";
+import ScrollToTop from "./ScrollToTop";
 
 export {
   Wrapper,
@@ -20,7 +25,7 @@ export {
   Header,
   About,
   Templates,
-  Products,
+  Projects,
   ContactForm,
   Contact,
   Footer,
@@ -28,4 +33,9 @@ export {
   LanguageSelector,
   Sliit360,
   Akuru,
+  TechStack,
+  Timeline,
+  UniProjects,
+  CallToAction,
+  ScrollToTop,
 };
