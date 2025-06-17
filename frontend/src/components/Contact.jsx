@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { contact } from "../assets";
+import { temp1 } from "../assets";
 import ContactForm from "./ContactForm";
 import { Facebook, LinkedIn, WhatsApp } from "@mui/icons-material";
 
@@ -17,7 +17,7 @@ const Contact = () => {
         </div>
         <div className="w-full lg:w-3/5 lg:pl-12 flex flex-col items-center lg:items-start text-center lg:text-left">
           <img
-            src={contact}
+            src={temp1}
             alt="Contact Us"
             className="w-full h-64 object-cover rounded-xl mb-6"
           />

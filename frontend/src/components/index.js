@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 import Header from "./Header";
 import About from "./About";
 import Templates from "./Templates";
-import Products from "./Products";
+import Projects from "./Projects";
 import ContactForm from "./ContactForm";
 import Contact from "./Contact";
 import Footer from "./Footer";
@@ -25,7 +25,7 @@ export {
   Header,
   About,
   Templates,
-  Products,
+  Projects,
   ContactForm,
   Contact,
   Footer,

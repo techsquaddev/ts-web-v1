@@ -5,10 +5,9 @@ import {
   CallToAction,
   Contact,
   Header,
-  Products,
+  Projects,
   Sliit360,
   TechStack,
-  Templates,
   UniProjects,
 } from "@/components";
 
@@ -72,16 +71,6 @@ const Home = () => {
         <About />
       </motion.div>
 
-      {/* Fade in from left */}
-      <motion.div
-        initial={fadeInLeft.initial}
-        whileInView={fadeInLeft.animate}
-        transition={fadeInLeft.transition}
-        viewport={{ once: true, amount: 0.3 }}
-      >
-        <Templates />
-      </motion.div>
-
       {/* Scale in */}
       <motion.div
         initial={scaleIn.initial}
@@ -89,7 +78,7 @@ const Home = () => {
         transition={scaleIn.transition}
         viewport={{ once: true, amount: 0.3 }}
       >
-        <Products />
+        <Projects />
       </motion.div>
 
       {/* Fade in from right */}

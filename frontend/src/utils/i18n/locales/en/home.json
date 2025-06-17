@@ -3,7 +3,8 @@
     "home": "Home",
     "about": "About",
     "templates": "Templates",
-    "products": "Products",
+    "projects": "Projects",
+    "tech": "Tech",
     "blog": "Blog",
     "contact": "Contact"
   },
@@ -20,8 +21,8 @@
   "templates": {
     "title": "Web Templates"
   },
-  "products": {
-    "title": "Our Products"
+  "projects": {
+    "title": "Our Projects"
   },
   "sliit360": {
     "title": "The online material hub of SLIIT students!",

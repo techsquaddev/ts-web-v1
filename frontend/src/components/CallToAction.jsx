@@ -17,7 +17,7 @@ const CallToAction = () => {
       className="my-7 p-12 bg-white dark:bg-primary rounded-3xl"
     >
       <div className="text-center space-y-8">
-        <h2 className="text-4xl md:text-5xl font-semibold text-gray-900 dark:text-white">
+        <h2 className="text-3xl md:text-4xl font-semibold text-gray-900 dark:text-white">
           Ready to Get Started?
         </h2>
         <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">

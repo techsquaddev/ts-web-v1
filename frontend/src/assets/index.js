@@ -8,6 +8,8 @@ import prod1 from "./products/prod1.jpg";
 import prod2 from "./products/prod2.png";
 import prod3 from "./products/prod3.png";
 import prod4 from "./products/prod4.png";
+import prod5 from "./products/prod5.png";
+import prod6 from "./products/prod6.png";
 import contact from "./contact.jpg";
 import header_image from "./header_image.jpg";
 import header_light from "./header_light.png";
@@ -46,6 +48,8 @@ export {
   prod2,
   prod3,
   prod4,
+  prod5,
+  prod6,
   contact,
   header_image,
   header_light,

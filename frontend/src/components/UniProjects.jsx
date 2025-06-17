@@ -19,7 +19,7 @@ const UniProjects = () => {
                   className="text-2xl text-gray-900 dark:text-white font-bold md:text-3xl"
                   whileHover={{ scale: 1.05 }}
                 >
-                  What We Offer
+                  Academic Offers
                 </motion.h2>
 
                 <div className="space-y-6">
@@ -51,8 +51,8 @@ const UniProjects = () => {
                       transition={{ delay: index * 0.1 }}
                       whileHover={{ x: 10 }}
                     >
-                      <div className="bg-blue-100 dark:bg-blue-900 p-3 rounded-full">
-                        <service.icon className="w-6 h-6 text-blue-600 dark:text-blue-400" />
+                      <div className="bg-accent p-3 rounded-full">
+                        <service.icon className="w-6 h-6 text-primary" />
                       </div>
                       <div>
                         <h3 className="font-semibold text-gray-900 dark:text-white text-lg">
@@ -73,22 +73,19 @@ const UniProjects = () => {
             <div className="grid gap-6">
               {[
                 {
-                  emoji: "✓",
-                  color: "green",
+                  emoji: "✅",
                   title: "Academic Excellence",
                   description:
                     "Projects designed to help you learn and achieve top grades",
                 },
                 {
-                  emoji: "⚡",
-                  color: "blue",
+                  emoji: "✅",
                   title: "Timely Delivery",
                   description:
                     "Meet your deadlines with our efficient project completion",
                 },
                 {
-                  emoji: "💡",
-                  color: "purple",
+                  emoji: "✅",
                   title: "Learning Support",
                   description:
                     "Understand your project with detailed explanations",
@@ -102,14 +99,8 @@ const UniProjects = () => {
                   transition={{ delay: index * 0.1 }}
                   whileHover={{ scale: 1.02, y: -5 }}
                 >
-                  <div
-                    className={`bg-${benefit.color}-100 dark:bg-${benefit.color}-900 w-16 h-16 rounded-full flex items-center justify-center`}
-                  >
-                    <span
-                      className={`text-${benefit.color}-600 dark:text-${benefit.color}-400 font-bold text-2xl`}
-                    >
-                      {benefit.emoji}
-                    </span>
+                  <div className="bg-zinc-100 dark:bg-primary w-16 h-16 rounded-2xl flex items-center justify-center">
+                    <span className="font-bold text-2xl">{benefit.emoji}</span>
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 dark:text-white text-xl">
@@ -127,16 +118,16 @@ const UniProjects = () => {
 
         {/* Stats Section */}
         <motion.div
-          className="grid grid-cols-2 md:grid-cols-4 gap-8 py-12"
+          className="grid grid-cols-2 md:grid-cols-4 gap-8 pt-12 pb-4"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
         >
           {[
-            { number: "500+", label: "Projects Completed" },
+            { number: "10+", label: "Projects Completed" },
             { number: "95%", label: "Success Rate" },
             { number: "24/7", label: "Support Available" },
-            { number: "100+", label: "Happy Students" },
+            { number: "10+", label: "Happy Students" },
           ].map((stat, index) => (
             <motion.div
               key={index}
@@ -147,7 +138,7 @@ const UniProjects = () => {
               whileHover={{ scale: 1.1 }}
             >
               <motion.div
-                className="text-4xl md:text-5xl font-bold text-blue-600 dark:text-blue-400"
+                className="text-4xl md:text-5xl font-bold text-zinc-800 dark:text-zinc-200"
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ delay: index * 0.1 + 0.3 }}
