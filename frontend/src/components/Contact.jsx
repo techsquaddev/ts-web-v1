@@ -2,16 +2,9 @@ import { useTranslation } from "react-i18next";
 import { contact } from "../assets";
 import ContactForm from "./ContactForm";
 import { Facebook, LinkedIn, WhatsApp } from "@mui/icons-material";
-import { motion } from "framer-motion";
-import { ArrowRight } from "lucide-react";
 
 const Contact = () => {
   const { t } = useTranslation();
-
-  const scaleOnHover = {
-    whileHover: { scale: 1.05 },
-    whileTap: { scale: 0.95 },
-  };
 
   return (
     <section
@@ -31,7 +24,7 @@ const Contact = () => {
           <h2 className="text-2xl font-semibold mb-4 dark:text-white">
             {t("contact.contact")}
           </h2>
-          <p className="text-secondary dark:text-soft-gray mb-5">
+          <p className="text-secondary dark:text-zinc-200 mb-5">
             {t("contact.description")}
           </p>
           <div className="flex items-center space-x-3">
@@ -47,20 +40,20 @@ const Contact = () => {
             </a>
             <a
               href="#"
-              className="text-primary dark:text-soft-gray hover:text-indigo-600 hover:scale-110 transition-all duration-200"
+              className="text-primary dark:text-zinc-200 hover:text-indigo-600 hover:scale-110 transition-all duration-200"
             >
               <Facebook
                 fontSize="string"
-                className="rounded-full text-4xl bg-soft-gray dark:bg-secondary p-1.5"
+                className="rounded-full text-4xl bg-zinc-200 dark:bg-secondary p-1.5"
               />
             </a>
             <a
               href="#"
-              className="text-primary dark:text-soft-gray hover:text-indigo-600 hover:scale-110 transition-all duration-200"
+              className="text-primary dark:text-zinc-200 hover:text-indigo-600 hover:scale-110 transition-all duration-200"
             >
               <LinkedIn
                 fontSize="string"
-                className="rounded-full text-4xl bg-soft-gray dark:bg-secondary p-1.5"
+                className="rounded-full text-4xl bg-zinc-200 dark:bg-secondary p-1.5"
               />
             </a>
           </div>

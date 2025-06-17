@@ -16,7 +16,7 @@ const TemplateCard = ({ template }) => {
         <h3 className="text-black dark:text-white text-lg font-semibold">
           {template.name}
         </h3>
-        <p className="text-sm text-primary dark:text-soft-gray">
+        <p className="text-sm text-primary dark:text-zinc-200">
           {template.description}
         </p>
         <div className="mt-4">
@@ -37,7 +37,7 @@ const TemplateCard = ({ template }) => {
           {template.tags.map((tag, index) => (
             <span
               key={index}
-              className="text-xs bg-bg dark:bg-gray text-black dark:text-white rounded-full px-2 py-1 mr-2"
+              className="text-xs bg-bg dark:bg-zinc-600 text-black dark:text-white rounded-full px-2 py-1 mr-2"
             >
               {tag}
             </span>
@@ -59,7 +59,7 @@ const TemplatePage = ({ template }) => {
       <h1 className="text-2xl font-bold mt-5 text-black dark:text-white">
         {template.name}
       </h1>
-      <p className="mt-2 text-primary dark:text-soft-gray">
+      <p className="mt-2 text-primary dark:text-zinc-200">
         {template.longDesc}
       </p>
       <div className="mt-6 flex">
@@ -77,7 +77,7 @@ const TemplatePage = ({ template }) => {
         {template.tags.map((tag, index) => (
           <span
             key={index}
-            className="text-xs bg-bg dark:bg-gray text-black dark:text-white rounded-full px-2 py-1 mr-2"
+            className="text-xs bg-bg dark:bg-zinc-600 text-black dark:text-white rounded-full px-2 py-1 mr-2"
           >
             {tag}
           </span>

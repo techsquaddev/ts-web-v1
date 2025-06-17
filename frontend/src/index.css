@@ -17,9 +17,9 @@ html {
 }
 
 body {
-  @apply bg-bg;
+  @apply bg-zinc-100;
 }
 
 body.dark {
-  @apply bg-black;
+  @apply bg-zinc-900;
 }

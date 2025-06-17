@@ -27,7 +27,7 @@ const About = () => {
           <h2 className="text-2xl text-gray-900 dark:text-white font-bold mb-8 md:text-3xl">
             {title}
           </h2>
-          <p className="text-base text-secondary dark:text-soft-gray mb-6">
+          <p className="text-base text-secondary dark:text-zinc-200 mb-6">
             <Trans
               i18nKey={description}
               components={{
