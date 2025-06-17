@@ -115,7 +115,7 @@ const TechStack = () => {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-2xl text-black dark:text-white font-bold text-center mb-8 md:text-3xl">
+          <h2 className="text-2xl text-gray-900 dark:text-white font-bold text-center mb-8 md:text-3xl">
             Our Tech Stack
           </h2>
         </motion.div>

@@ -14,11 +14,8 @@ module.exports = {
         primary: "#27272a", //#333333
         secondary: "#3f3f46", //#525252
         accent: "#F0DB4F",
-        white: "#FFFFFF",
         bg: "#f4f4f5", //#f4f4f4
         border: "#d4d4d8", //#cccccc
-        black: "#18181b", //#222222
-        gray: "#52525b",
         "soft-gray": "#e4e4e7", //#e2e2e2
       },
       keyframes: {

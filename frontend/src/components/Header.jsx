@@ -8,14 +8,14 @@ const Header = () => {
     <header className="p-5 bg-white dark:bg-primary rounded-3xl md:p-10">
       <div className="flex flex-col lg:flex-row items-center justify-between">
         <div className="lg:w-1/2 text-center lg:text-left">
-          <h1 className="text-4xl font-bold text-black dark:text-white mb-4 pt-4 md:p-0">
+          <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4 pt-4 md:p-0">
             {title}✌️
           </h1>
           <p className="text-base text-secondary dark:text-soft-gray mb-6">
             {description} ✨
           </p>
           <a
-            href="#templates"
+            href="#get-started"
             className="inline-block px-8 py-3 bg-accent text-black text-lg font-semibold rounded-lg hover:bg-primary dark:hover:bg-secondary hover:text-white transition-colors duration-300"
           >
             {button}

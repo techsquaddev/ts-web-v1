@@ -14,6 +14,8 @@ import Sliit360 from "./Sliit360";
 import Akuru from "./Akuru";
 import TechStack from "./TechStack";
 import Timeline from "./Timeline";
+import UniProjects from "./UniProjects";
+import CallToAction from "./CallToAction";
 import ScrollToTop from "./ScrollToTop";
 
 export {
@@ -33,5 +35,7 @@ export {
   Akuru,
   TechStack,
   Timeline,
+  UniProjects,
+  CallToAction,
   ScrollToTop,
 };

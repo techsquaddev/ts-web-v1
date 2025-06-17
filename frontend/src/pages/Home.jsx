@@ -2,12 +2,14 @@ import { motion } from "framer-motion";
 import {
   About,
   Akuru,
+  CallToAction,
   Contact,
   Header,
   Products,
   Sliit360,
   TechStack,
   Templates,
+  UniProjects,
 } from "@/components";
 
 // Animation variants for different effects
@@ -118,6 +120,9 @@ const Home = () => {
       >
         <TechStack />
       </motion.div>
+
+      <UniProjects />
+      <CallToAction />
 
       {/* Contact section - Fade in from bottom */}
       <motion.div

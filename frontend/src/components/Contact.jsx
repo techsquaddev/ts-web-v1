@@ -2,15 +2,23 @@ import { useTranslation } from "react-i18next";
 import { contact } from "../assets";
 import ContactForm from "./ContactForm";
 import { Facebook, LinkedIn, WhatsApp } from "@mui/icons-material";
+import { motion } from "framer-motion";
+import { ArrowRight } from "lucide-react";
 
 const Contact = () => {
   const { t } = useTranslation();
+
+  const scaleOnHover = {
+    whileHover: { scale: 1.05 },
+    whileTap: { scale: 0.95 },
+  };
+
   return (
     <section
       id="contact"
       className="my-7 p-5 bg-white dark:bg-primary rounded-3xl md:p-10"
     >
-      <div className="flex flex-col lg:flex-row items-center lg:items-start">
+      <div className="flex flex-col lg:flex-row items-center md:items-start">
         <div className="w-full lg:w-2/5 mb-8 lg:mb-0">
           <ContactForm />
         </div>
