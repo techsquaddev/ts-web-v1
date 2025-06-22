@@ -29,7 +29,7 @@ const Contact = () => {
           </p>
           <div className="flex items-center space-x-3">
             <a
-              href="https://wa.me/94715109259"
+              href="https://wa.me/94781648064"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -39,7 +39,7 @@ const Contact = () => {
               </button>
             </a>
             <a
-              href="#"
+              href="https://web.facebook.com/techsquaddev"
               className="text-primary dark:text-zinc-200 hover:text-indigo-600 hover:scale-110 transition-all duration-200"
             >
               <Facebook
